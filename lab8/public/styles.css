@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(224, 65, 97);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: cursive;
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* styles.css */
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Set display to flex */
+  }
+  
+  nav ul li {
+    padding: 0;
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0; /* Remove margin for the last list item */
+  }
+  
+  nav ul li a {
+    text-decoration: underline;
+    font-family: cursive;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    /* width: 70%; */
+  }
+  
+  li {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.5);
+    transition: 10ms;
+  }
+
+  li:hover{
+    background-color: #82dace;
+    cursor: pointer;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  strong {
+    color: #007bff;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #82dace;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form textarea,
+  form input[type="date"] {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form input[type="checkbox"] {
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }

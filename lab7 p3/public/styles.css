@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(212, 34, 70);
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-family: cursive;
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  ul {
+    font-family: 'Lucida Sans';
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  li {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);
+    transition: 1ms;
+  }
+
+  li:hover {
+    background-color: #82dace;
+    cursor: pointer;
+  }
+  
+  li:last-child {
+    margin-bottom: 0;
+  }
+  
+  strong {
+    color: #007bff;
+  }
